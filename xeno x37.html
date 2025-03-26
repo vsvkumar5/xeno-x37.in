@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="xeno x36" content="width=device-width, initial-scale=1.0">
+    <title>xeno x37</title>
+    <link rel="stylesheet" href="styles.css">
+</Head>
+
+<style>
+    .tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]
+    {max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;outline:0;transition-property:transform,visibility,opacity}
+    .tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}
+    .tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}.tippy-box
+    [data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>
+    .tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}
+    .tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}
+    .tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}
+    .tippy-content{position:relative;padding:5px 9px;z-index:1}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+/* header Section */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url('hero-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.header .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .btn:hover {
+    background-color: darkred;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: black;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f80e0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1f80e0;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 400px;
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 10px black;
+}
+
+/* Movies Section */
+.movies {
+    padding: 20px 50px;
+}
+
+.movies h2 {
+    margin-bottom: 10px;
+}
+
+.movie-container {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.movie {
+    min-width: 200px;
+    height: 300px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Scrollbar Styling */
+.movie-container::-webkit-scrollbar {
+    height: 5px;
+}
+
+.movie-container::-webkit-scrollbar-thumb {
+    background: #1f80e0;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    margin-top: 20px;
+}
+
+</style>
+<head>
+    <search><video"></serch>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>xeno x37</h1>
+        </div>
+        <nav>
+            <ul> <stayle>
+                <!--whith theme long box -->
+               </stayle>
+               
+                <margin-topleft> <li><a href="#search">search</a></li></margin-topleft>
+                <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+            </ul>
+            
+   
+            </body>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#18+">18+</a></li>
+                <li><a href="#library">Library</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <div class="main-content">
+        <!-- Video Player -->
+        <div class="video-player">
+            <iframe width="100%" height="500" src="https://www.xeno x37.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <video width="100%" height="auto" controls>
+            <source src="your-video.mp4" type="video/mp4">
+            https://www.instagram.com/reel/DHeGIMBsU-d/?igsh=a3BoaDJiODl0Nnc4
+        </video>
+        <div class="video-banner">
+            <video autoplay muted loop>
+                <source src="background-video.mp4" type="video/mp4">
+            </video>
+            <div class="overlay">
+                <h1>Watch the Latest Movies & Shows</h1>
+            </div>
+        </div>
+  
+  <Stayle>
+
+.video-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+            
+.video-banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+            
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+}
+</Stayle>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID" 
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+
+<video id="myVideo" width="100%" height="auto">
+    <source src="your-video.mp4" type="video/mp4">
+</video>
+<button onclick="playPause()">Play/Pause</button>
+
+<script>
+    function playPause() {
+        var video = document.getElementById("myVideo");
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+</script>
+
+
+        
+        <!-- Video Description -->
+        <div class="video-description">
+            <h2>Video Title</h2>
+            <p>This is a description of the video. Learn more about the content of the video here.</p>
+        </div>
+
+        <!-- Sidebar with Video Thumbnails -->
+        <div class="sidebar">
+            <h3>Recommended Videos</h3>
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="Video 1">
+                <p>Video Title 1</p>
+            </div>
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="Video 2">
+                <p>Video Title 2</p>
+            </div>
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="Video 3">
+                <p>Video Title 3</p>
+            </div>
+            <!-- Add more thumbnails as needed -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 xeno x37. All Rights Reserved.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="xeno x36" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="xeno x37" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Theme Header -->
+    <style>
+       {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #141414;
+            color: white;
+        }
+        .hero {
+            width: 100%;
+            height: 90vh;
+            background: url('hero-banner.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        .hero .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .hero .btn:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Unlimited Movies, TV Shows & More</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button class="btn">Get Started</button>
+    </section>
+<body>
+    <header>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Epolore">Explore</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#18+">18+</a></li>
+                <li><a href="profile#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
